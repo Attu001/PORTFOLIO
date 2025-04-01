@@ -18,7 +18,9 @@ const Work = () => {
                       imgsrc={item.imgsrc}
                        title={item.title}
                         text={item.text}
-                         view={item.view} />
+                         view={item.view} 
+                         source={item.source}
+                         />
                 
                 )
             })};

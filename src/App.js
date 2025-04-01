@@ -1,3 +1,4 @@
+import Certifications from './Componentes/Certifications';
 
 import React from 'react';
 import './index.css'
@@ -13,6 +14,8 @@ function App() {
     <div>
       <Routes>
        <Route path='/'   element={<Home/>} />
+       <Route path="/certifications" element={<Certifications />} />
+
         <Route path='/project' element={ <Project/>} />
         <Route path='/about' element={ <About/>}/>
          <Route path='/contact' element={<Contact/>}/>
